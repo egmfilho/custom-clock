@@ -1,0 +1,13 @@
+{
+    "name": "egmfilho-custom-clock",
+    "version": "0.1",
+    "description": "An AngularJS directive that acts as a clock updating the time every second.",
+    "author": "https://github.com/egmfilho",
+    "main": "./src/clock.js",
+    "ignore": [ 
+
+    ],
+    "dependencies": {
+        "angular": "^1.3.15"
+    }
+}
