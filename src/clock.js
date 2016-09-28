@@ -2,11 +2,11 @@
  * Created by egmfilho on 20/09/16.
  */
 
-(function() {
+(function () {
 
-'use strict';
+	'use strict';
 
-	angular.module('egmfilho.clock', [ ])
+	angular.module('egmfilho.clock', [])
 		.directive('customClock', ['$timeout', function ($timeout) {
 
 			function controller($scope) {
@@ -23,7 +23,7 @@
 			return {
 				restrict: 'E',
 				scope: {
-          format: '='
+          format: '@'
 				},
 				controller: controller,
 				template: '<span>{{relogio | date: (format || "medium")}}</span>'
@@ -31,4 +31,4 @@
 
 		}]);
 
-}());
+} ());
